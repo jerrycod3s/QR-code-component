@@ -15,7 +15,7 @@ html {
     align-items: center;
     background-color: var(--slate-300);
 }
-#card {
+.card {
     background-color: white;
     width: 250px;
     height: 400px;
@@ -23,32 +23,32 @@ html {
     flex-direction: column;
     padding: 15px;
 }
-#card-image img {
+.card-image img {
     width: 250px;
 }
-#card, #card-image img {
+.card, .card-image img {
     border-radius: 10px;
 }
-#card-paragraph {
+.card-paragraph {
     margin: 20px;
 }
-#card-paragraph h1 {
+.card-paragraph h1 {
     font-size: 17px;
     color: var(--slate-900);
 }
-#card-paragraph p {
+.card-paragraph p {
     color: var(--slate-500);
     font-size: 12px;
 }
 @media screen and (min-width: 700px) {
-    #card-image img {
+    .card-image img {
         width: 275px;
         height: 250px;
     }
-    #card {
+    .card {
         width: 275px;
     }
-    #card-paragraph {
+    .card-paragraph {
         margin: 20px 35px;
     }
 }
